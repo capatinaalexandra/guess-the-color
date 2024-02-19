@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./guessColor.css">
+    <title>Guess the Color</title>
+
+</head>
+
+<body>
+    <div class="containerDisplay">
+        <div class="containerGame">
+            <div class="containerHeader">
+                <h1>THE GREAT <br><span id="rgbColor">RGB</span><br> GUESSING GAME</h1>
+            </div>
+
+            <div class="containerBtn">
+                <button onclick="newColors()" id="newColor">NEW COLOR</button>
+                <span id="answer"></span>
+                <button   id="easy">EASY</button>
+                <button id="hard">HARD</button>
+            </div>
+
+            <div  class="containerColors">
+                <div class="colorSquare"></div>
+                <div class="colorSquare"></div>
+                <div class="colorSquare"></div>
+                <div class="colorSquare"></div>
+                <div class="colorSquare"></div>
+                <div class="colorSquare"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./guessColor.js"></script>
+</body>
+
+</html>

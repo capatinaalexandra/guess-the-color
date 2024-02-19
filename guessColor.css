@@ -1,0 +1,82 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  
+}
+
+
+.containerGame {
+    display: flex;
+    flex-direction: column;
+    width:80vh;
+    height: 70vh;
+    font-family: "Raleway", Sans-serif;
+    font-size: large;
+    background-color: #252424;
+
+}
+
+
+.containerHeader {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: #1cdbdb;
+    height: 20vh;
+      
+}
+
+.containerBtn {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height:3vh ;
+    padding-top: 0%;
+}
+
+#newColor{
+    color:#1cdbdb;
+    border-color: white;
+    background-color: white;
+    outline: none;
+    box-shadow: none;
+    letter-spacing: 1px;
+	
+}
+
+#easy {
+    color:#1cdbdb;
+    border-color: white;
+    background-color: white;
+    outline: none;
+    box-shadow: none;
+    letter-spacing: 1px;
+
+}
+
+#hard {
+    color:white;
+    border-color: white;
+    background-color: #1cdbdb;
+    outline: none;
+    box-shadow: none;
+    letter-spacing: 1px;
+}
+
+.containerColors {
+    background-color: #252424;
+}
+.colorSquare{
+    width: 30%;
+	background-color: rgb(241, 212, 49);
+    border-radius: 20%;
+	padding-bottom: 25%;
+	float: left;
+	margin: 1.50%;
+	
+
+}
